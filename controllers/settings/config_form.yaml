@@ -1,0 +1,27 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Setting
+
+# Model Form Field configuration
+form: $/teb/doctorinfo/models/setting/fields.yaml
+
+# Model Class name
+modelClass: Teb\Doctorinfo\Models\Setting
+
+# Default redirect location
+defaultRedirect: teb/doctorinfo/settings
+
+# Create page
+create:
+    title: teb.doctorinfo::lang.controller.create
+    redirect: teb/doctorinfo/settings/update/:id
+    redirectClose: teb/doctorinfo/settings
+
+# Update page
+update:
+    title: teb.doctorinfo::lang.controller.create
+    redirect: teb/doctorinfo/settings
+    redirectClose: teb/doctorinfo/settings

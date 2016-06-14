@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="doctor">
+        <div class="content-title">
+            <div class="row">
+                <div class="col-md-12"><span class="title-main">주치의 소개</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="title-sub">가까운 곳에 장면역탕을 처방해 줄 훌륭한 한의사가 있어요!</span></div>
+            </div>
+        </div>
+        <div class="row doctor-list">
+            {% for doctor in doctorInfo.getDoctors %}
+                <div class="col-md-2"><a href="/doctors/{{ doctor.id }}"><strong>{{ doctor.branch_name }}</strong><span>|</span>{{ doctor.name }} 한의사</a></div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+1.0.0:
+    - First version of Doctorinfo
+    - create_doctors_table.php
+1.0.1:
+    - Doctors 테이블에 한의원명, 소개사진path, 블로그사진path 컬럼 추가하다.
+    - add_doctors_columns.php
+1.0.2:
+    - Doctors 테이블에 강연및활동, 도서 컬럼 추가하다.
+    - add_doctors_book_activity_columns.php

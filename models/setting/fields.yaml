@@ -1,0 +1,101 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: teb.doctorinfo::lang.doctor.label
+        type: text
+        comment: teb.doctorinfo::lang.doctor.comment
+
+    clinic_name:
+        label: teb.doctorinfo::lang.doctor.clinic-name-label
+        type: text
+        comment: teb.doctorinfo::lang.doctor.clinic-name-comment
+
+    branch_name:
+        label: teb.doctorinfo::lang.doctor.branch-name-label
+        type: text
+        comment: teb.doctorinfo::lang.doctor.branch-name-comment
+
+    description:
+        label: teb.doctorinfo::lang.doctor.description-label
+        type: textarea
+        size: giant
+        comment: teb.doctorinfo::lang.doctor.description-comment
+
+    description_image_path:
+        label: teb.doctorinfo::lang.doctor.description-image-path-label
+        type: text
+        comment: teb.doctorinfo::lang.doctor.description-image-path-comment
+
+    personal_history:
+        label: teb.doctorinfo::lang.doctor.personal-history-label
+        type: textarea
+        size: giant
+        comment: teb.doctorinfo::lang.doctor.personal-history-comment
+
+    thesis:
+        label: teb.doctorinfo::lang.doctor.thesis-label
+        type: textarea
+        size: giant
+        comment: teb.doctorinfo::lang.doctor.thesis-comment
+
+    activity:
+        label: teb.doctorinfo::lang.doctor.activity-label
+        type: textarea
+        size: giant
+        comment: teb.doctorinfo::lang.doctor.activity-comment
+
+    book:
+        label: teb.doctorinfo::lang.doctor.book-label
+        type: textarea
+        size: giant
+        comment: teb.doctorinfo::lang.doctor.book-comment
+
+    time_table:
+        label: teb.doctorinfo::lang.doctor.time-table-label
+        type: textarea
+        size: giant
+        comment: teb.doctorinfo::lang.doctor.time-table-comment
+
+    blog_name:
+        label: teb.doctorinfo::lang.doctor.blog-name-label
+        type: text
+        comment: teb.doctorinfo::lang.doctor.blog-name-comment
+
+    blog_url:
+        label: teb.doctorinfo::lang.doctor.blog-url-label
+        type: text
+        comment: teb.doctorinfo::lang.doctor.blog-url-comment
+
+    blog_image_path:
+        label: teb.doctorinfo::lang.doctor.blog-image-path-label
+        type: text
+        comment: teb.doctorinfo::lang.doctor.blog-image-path-comment
+
+    address:
+        label: teb.doctorinfo::lang.doctor.address-label
+        type: text
+        comment: teb.doctorinfo::lang.doctor.address-comment
+
+    address_latitude:
+        label: teb.doctorinfo::lang.doctor.address-latitude-label
+        type: text
+        comment: teb.doctorinfo::lang.doctor.address-latitude-comment
+
+    address_longitude:
+        label: teb.doctorinfo::lang.doctor.address-longitude-label
+        type: text
+        comment: teb.doctorinfo::lang.doctor.address-longitude-comment
+
+    order_no:
+        label: teb.doctorinfo::lang.doctor.order-no-label
+        type: text
+        comment: teb.doctorinfo::lang.doctor.order-no-comment
+
+    is_active:
+        label: teb.doctorinfo::lang.doctor.is-active-label
+        type: checkbox
+        default: true
+        comment: teb.doctorinfo::lang.doctor.is-active-comment

@@ -1,0 +1,60 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: teb.doctorinfo::lang.tables.id
+        searchable: true
+
+    name:
+        label: teb.doctorinfo::lang.tables.name
+        searchable: true
+
+    branch_name:
+        label: teb.doctorinfo::lang.tables.branch-name
+        searchable: true
+
+#    description:
+#        label: teb.doctorinfo::lang.tables.description
+#        searchable: true
+#
+#    personal_history:
+#        label: teb.doctorinfo::lang.tables.personal-history
+#        searchable: true
+#
+#    thesis:
+#        label: teb.doctorinfo::lang.tables.thesis
+#        searchable: true
+#
+#    time_table:
+#        label: teb.doctorinfo::lang.tables.time-table
+#        searchable: true
+#
+#    blog_name:
+#        label: teb.doctorinfo::lang.tables.blog-name
+#        searchable: true
+#
+#    blog_url:
+#        label: teb.doctorinfo::lang.tables.blog-url
+#        searchable: true
+#
+#    address:
+#        label: teb.doctorinfo::lang.tables.address
+#        searchable: true
+#
+#    address_latitude:
+#        label: teb.doctorinfo::lang.tables.address-latitude
+#        searchable: true
+#
+#    address_longitude:
+#        label: teb.doctorinfo::lang.tables.address-longitude
+#        searchable: true
+
+    order_no:
+        label: teb.doctorinfo::lang.tables.order-no
+        searchable: true
+
+    is_active:
+        label: teb.doctorinfo::lang.tables.is-active
+        type: checkbox
