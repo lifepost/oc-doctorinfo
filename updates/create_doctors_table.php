@@ -15,13 +15,11 @@ class CreateDoctorsTable extends Migration
             $table->string('name', 255);
             $table->string('branch_name', 255);
             $table->text('description');
-            $table->string('description_image_path', 255);
             $table->text('personal_history');
             $table->text('thesis');
             $table->text('time_table');
             $table->string('blog_name', 255);
             $table->string('blog_url', 255);
-            $table->string('blog_image_path', 255);
             $table->string('address', 255);
             $table->string('address_latitude', 11);
             $table->string('address_longitude', 11);
